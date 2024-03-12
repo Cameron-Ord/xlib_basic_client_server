@@ -8,6 +8,8 @@
 #include <sys/wait.h>
 #include <unistd.h>
 #include <execinfo.h>
+#include <stdio.h>
+#include <X11/extensions/Xrandr.h>
 
 #define LENGTH(x)     sizeof(x) / sizeof(x[0])
 #define MAX(A, B)     (A) > (B) ? (A) : (B)

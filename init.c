@@ -1,8 +1,4 @@
 #include "inc/main.h"
-#include <signal.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <unistd.h>
 
 const char *font_str = "-*-dejavu sans mono-medium-r-normal-*-12-*-*-*-*-*-iso10646-1";
 struct sigaction sa;
